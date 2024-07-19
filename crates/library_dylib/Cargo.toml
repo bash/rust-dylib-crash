@@ -1,0 +1,11 @@
+[package]
+name = "library_dylib"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["dylib"]
+
+[dependencies]
+library = { path = "../library" }
+

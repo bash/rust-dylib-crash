@@ -1,0 +1,4 @@
+# Rust builds
+/target
+# Trunk builds
+/web/dist/
