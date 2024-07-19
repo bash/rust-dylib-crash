@@ -2,3 +2,4 @@
 /target
 # Trunk builds
 /web/dist/
+/target-bisector-*/

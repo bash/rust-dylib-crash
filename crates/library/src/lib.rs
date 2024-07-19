@@ -1,3 +1,3 @@
-use std::sync::OnceLock;
+use std::sync::Once;
 
-pub static ONCE_LOCK: OnceLock<()> = OnceLock::new();
+pub static ONCE: Once = Once::new();
