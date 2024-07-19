@@ -1,5 +1,5 @@
-#[allow(unused_imports)]
-use library_dylib;
+extern crate library;
+extern crate library_dylib;
 
 use library::ONCE;
 
